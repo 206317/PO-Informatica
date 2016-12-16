@@ -1,0 +1,124 @@
+body{
+	background-color: white;
+	color: navy;
+	font-family: "tahoma", sans-serif;
+}
+H1{
+	color: navy;
+	font-size: 2.0em;
+	text-decoration: underline;
+	font-family: "tahoma", sans-serif;
+}
+H1, H2, H3, H4, H5, H6{
+	font-family: "tahoma", sans-serif;
+}
+H1.index{
+	color: blue;
+	font-size: 2.5em;
+	text-decoration: underline;
+}
+H5{color: silver;
+	font-size: 25px;
+	margin: 5px;
+}
+H6{
+	font-size: 15px;
+	margin: 3px;}
+p{
+	text-align: left;
+	width: 1340px;
+	font-family: "tahoma", sans-serif;
+}
+p.special{
+	font-size: 14px;
+	margin: 3px;
+	font-family: "tahoma", sans-serif;
+}
+nav{background-color: blue;
+	color: silver;
+	Height: 60px;
+	width: 1340px
+}
+li.loes{
+	list-style-type: square;
+	font-family: "tahoma", sans-serif;
+}
+ul{
+	font-family: "tahoma", sans-serif;
+}
+table, th, td {
+   border: 1px solid black;
+   font-family: "tahoma", sans-serif;
+}
+img{
+	float: right;
+	margin: 5px;
+}
+a{text-decoration: underline;
+		color: blue;
+		margin: 5px;
+		font-family: "tahoma", sans-serif;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+	font-family: "tahoma", sans-serif;
+}
+a:visited{
+	text-decoration: underline;
+	color: teal;
+	font-family: "tahoma", sans-serif;
+}
+a:hover,visited{
+	color: white;
+	font-family: "tahoma", sans-serif;
+}
+div.dropdown{
+	position: relative;
+	display: inline-block;
+}
+div.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: silver;
+	width: 150px;
+	margin-left: 5px;
+	font-family: "tahoma", sans-serif;
+}
+div.dropdown-content a{
+	display: block;
+	font-family: "tahoma", sans-serif;
+}
+div.dropdown:hover div.dropdown-content{
+	display: block;
+	font-family: "tahoma", sans-serif;
+}
+div.margin{
+	height: 5px;
+}
+button{
+	background-color: silver;
+	color: blue;
+	height: 50px;
+	width: 150px;
+	margin: 5px;
+}
+button.dropdown-button{
+	cursor: pointer;
+	background-color: silver;
+	color: blue;
+	height: 50px;
+	width: 150px;
+	margin: 5px;
+	font-family: "tahoma", sans-serif;
+	
+}
+button:hover{
+	background-color: #52595C;
+	color: silver;
+
+}
+iframe{
+	margin: auto;
+	display: block;
+}
